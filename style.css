@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(255, 235, 235);
+}
+.label1{
+    font-weight: bold;
+    color:rgb(79, 5, 163);
+    font-size: 20px;
+    position:relative;
+    margin-top:200px;
+    margin-left:51px;
+}
+.label2{
+    font-weight: bold;
+    color:rgb(79, 5, 163);
+    font-size: 20px;
+    position:relative;
+    margin-left:55px;
+    margin-top:60px;
+    
+}
+#nav-bar{
+    background-color:brown;
+    height:30px;
+    padding:10px;
+    position:relative;
+    display:flex;
+    border-radius: 4px;
+}
+#btn-signup,#btn-login{
+    position:relative;
+    border-radius: 4px;
+}
+#signup,#login{
+    border: 5px;
+    border-color:black;
+    background-color: rgba(77, 78, 87, 0.11);
+    margin-top: 100px;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    width:400px;
+    height:200px;
+    display:none;
+    border-radius: 50px;
+}
+#header1{
+    margin-left:auto;
+    margin-right:auto;
+    color:blue;
+    position:relative;
+    display:flex;
+    justify-content: center;
+
+}
+#password{
+    background-color:rgb(219, 225, 231);
+}
+#username,#password,#login-username,#login-password{
+    background-color: rgb(255, 235, 235);
+    border-radius: 6px;
+    margin-left:10px;
+}
+#btn1,#btn2{
+    margin-top:40px;
+    position:fixed;
+    margin-left:170px;
+    border-radius: 5px;
+}
+#msg1,#msg2{
+    position:relative;
+    margin-left:57px;
+    color: rgb(255, 0, 0);
+}
